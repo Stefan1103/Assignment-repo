@@ -9,10 +9,6 @@ const GET_LAUNCHES = gql`
 			launch_site {
 				site_name_long
 			}
-			links {
-				article_link
-				video_link
-			}
 			rocket {
 				rocket {
 					id
@@ -20,6 +16,8 @@ const GET_LAUNCHES = gql`
 				}
 			}
 			id
+			launch_year
+			launch_success
 		}
 	}
 `;

@@ -15,9 +15,7 @@ const LandingPage = () => {
 			</Row>
 			<Container>
 				<Row>
-					<Col>
-						<Main />
-					</Col>
+					<Main />
 				</Row>
 			</Container>
 		</React.Fragment>
