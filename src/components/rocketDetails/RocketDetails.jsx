@@ -23,7 +23,7 @@ const RocketDetails = () => {
 	const { data, loading, error } = useRocket(id);
 
 	if (loading) return <Loading />;
-	if (error) return <Error />;
+	if (error || data.rocket === null || data === null) return <Error />;
 	const {
 		active,
 		boosters,

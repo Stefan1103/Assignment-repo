@@ -8,8 +8,10 @@ const Error = () => {
 			<h1>
 				<span>
 					<WarningIcon fontSize="large" />
-				</span>Something went wrong error...
+				</span>{' '}
+				ERROR!
 			</h1>
+			<h2>Something went wrong...</h2>
 			<Link to="/" className="link-home">
 				Go back to home page.
 			</Link>
