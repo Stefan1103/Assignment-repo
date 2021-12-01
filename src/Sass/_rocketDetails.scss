@@ -1,0 +1,25 @@
+.rocket-details {
+	margin-top: .5rem;
+	ul {
+		list-style: none;
+		li {
+			b {
+				padding-right: .3rem;
+			}
+			span {
+				font-weight: 500;
+				color: darken($color: $clear-blue-800, $amount: 40);
+			}
+		}
+	}
+	p {
+		color: darken($color: $clear-blue-800, $amount: 40);
+		font-weight: 500;
+	}
+	h4,
+	h3 {
+		.clear-blue {
+			color: darken($color: $clear-blue-800, $amount: 10);
+		}
+	}
+}

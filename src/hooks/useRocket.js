@@ -7,6 +7,33 @@ const GET_ROCKET = gql`
 			active
 			boosters
 			country
+			id
+			mass {
+				kg
+				lb
+			}
+			name
+			height {
+				meters
+				feet
+			}
+			description
+			diameter {
+				feet
+				meters
+			}
+			company
+			cost_per_launch
+			engines {
+				number
+				layout
+				version
+			}
+			landing_legs {
+				material
+				number
+			}
+			wikipedia
 		}
 	}
 `;
@@ -19,8 +46,8 @@ export const useRocket = (id) => {
 	});
 
 	return {
-		data,
 		error,
 		loading,
+		data,
 	};
 };

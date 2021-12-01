@@ -2,6 +2,9 @@
 @import "~bootstrap/scss/bootstrap";
 @import "variables";
 
+//components
+@import "error";
+@import "loading";
 @import "main";
 @import "head";
 @import "rocketDetails";

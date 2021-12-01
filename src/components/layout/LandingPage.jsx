@@ -2,7 +2,6 @@ import React from 'react';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 import Main from './Main';
 import Head from './Head';
@@ -10,9 +9,11 @@ import Head from './Head';
 const LandingPage = () => {
 	return (
 		<React.Fragment>
-			<Row>
-				<Head />
-			</Row>
+			<Container fluid>
+				<Row>
+					<Head />
+				</Row>
+			</Container>
 			<Container>
 				<Row>
 					<Main />
