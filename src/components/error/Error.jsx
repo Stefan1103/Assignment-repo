@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import React from 'react';
 import WarningIcon from '@mui/icons-material/Warning';
 
@@ -9,12 +8,9 @@ const Error = () => {
 				<span>
 					<WarningIcon fontSize="large" />
 				</span>{' '}
-				ERROR!
+				 ERROR!
 			</h1>
 			<h2>Something went wrong...</h2>
-			<Link to="/" className="link-home">
-				Go back to home page.
-			</Link>
 		</div>
 	);
 };
