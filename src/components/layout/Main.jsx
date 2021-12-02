@@ -53,14 +53,15 @@ const Main = () => {
 					breakLabel="..."
 					nextLabel="next >"
 					onPageChange={handlePageClick}
-					pageRangeDisplayed={5}
+					pageRangeDisplayed={0}
 					pageCount={pageCount}
 					previousLabel="< previous"
 					renderOnZeroPageCount={null}
 					containerClassName={'pagination-btns'}
 					previousLinkClassName={'previous-btn'}
 					nextLinkClassName={'next-btn'}
-					activeLinkClassName={'active-btn'}
+					activeLinkClassName={'pagination-active'}
+					activeClassName={'pagination-active'}
 				/>
 			</div>
 		</div>

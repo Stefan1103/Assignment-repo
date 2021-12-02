@@ -10,6 +10,11 @@
 		margin: 1rem;
 		border: 4px solid $clear-blue-800;
 		background-color: lighten($color: $clear-blue-800, $amount: 10);
+
+		@include xs-mobile {
+			width: 15rem;
+		}
+
 		.card-body {
 			text-decoration: none;
 			display: flex;
