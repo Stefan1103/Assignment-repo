@@ -60,7 +60,7 @@ const Main = () => {
 					containerClassName={'pagination-btns'}
 					previousLinkClassName={'previous-btn'}
 					nextLinkClassName={'next-btn'}
-					activeClassName={'active-btn'}
+					activeLinkClassName={'active-btn'}
 				/>
 			</div>
 		</div>
