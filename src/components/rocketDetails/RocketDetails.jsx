@@ -44,7 +44,7 @@ const RocketDetails = () => {
 			<Container className="border-bottom rocket-details">
 				<Row className="border-bottom">
 					<Col className="d-flex justify-content-center mb-4 mt-5">
-						<h2 className="text-secondary">Rocket specifications</h2>
+						<h2>Rocket specifications</h2>
 					</Col>
 				</Row>
 				<Row className="mt-3">
@@ -133,16 +133,16 @@ const RocketDetails = () => {
 				</Row>
 				<Row className="pb-3 pt-3">
 					<Col className="d-flex justify-content-center">
-						<a className="btn btn-outline-info" href={wikipedia}>
-							Link to wiki
-						</a>
-					</Col>
-					<Col className="d-flex justify-content-center">
 						<Link className="btn btn-outline-dark" to="/">
 							<span>
 								<ArrowBackIcon />
 							</span>Back
 						</Link>
+					</Col>
+					<Col className="d-flex justify-content-center">
+						<a className="btn btn-outline-info" href={wikipedia}>
+							Link to wiki
+						</a>
 					</Col>
 				</Row>
 			</Container>

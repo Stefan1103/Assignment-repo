@@ -8,12 +8,12 @@
 			}
 			span {
 				font-weight: 500;
-				color: darken($color: $clear-blue-800, $amount: 40);
+				color: $dark-blue-400;
 			}
 		}
 	}
 	p {
-		color: darken($color: $clear-blue-800, $amount: 40);
+		color: $dark-blue-400;
 		font-weight: 500;
 	}
 	h4,
@@ -21,5 +21,9 @@
 		.clear-blue {
 			color: darken($color: $clear-blue-800, $amount: 10);
 		}
+	}
+	h2 {
+		color: $neutral-900;
+		font-weight: 600;
 	}
 }

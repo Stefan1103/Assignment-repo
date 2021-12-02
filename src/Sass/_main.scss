@@ -2,7 +2,50 @@
 	margin: 2rem auto;
 	background-color: $neutral-100;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+	.main-cards {
+		margin: 2rem auto;
+		background-color: $neutral-100;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.pagination {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		.pagination-btns {
+			display: flex;
+			justify-content: center;
+			width: 80%;
+			height: 2.2rem;
+			list-style: none;
+			& a {
+				padding: .3em .7em;
+				margin: .1rem;
+				text-align: center;
+				border-radius: .3rem;
+				border: 1px solid $dark-blue-400;
+				color: $dark-blue-400;
+				font-weight: 500;
+				transition: background-color 0.5s ease;
+				&:hover,
+				&:focus {
+					color: $neutral-100;
+					background-color: $dark-blue-400;
+				}
+			}
+			.pagination-active a {
+				color: $neutral-100;
+				background-color: $dark-blue-400;
+			}
+			.next-btn,
+			.previous-btn {
+				text-decoration: none;
+				font-weight: 600;
+			}
+		}
+	}
 }
